@@ -55,39 +55,41 @@
         </div>
       </nav>
 
-      <!-- Slider-->
-      <div id="carouselExampleCaptions" class="carousel slide my-3" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 >Get Started Digital Learning</h1>
-              <p>It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
-                <button class="btn btn-primary"> Get Started </button>
+    <!-- Slider-->
+      <div>
+        <div id="carouselExampleCaptions" class="carousel slide my-3" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 >Get Started Digital Learning</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                  content of a page when looking at its layout.</p>
+                  <button class="btn btn-primary"> Get Started </button>
+              </div>
             </div>
+            <div class="carousel-item">
+              <img src="/images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+              
+            </div>
+            <div class="carousel-item">
+              <img src="/images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+             
           </div>
-          <div class="carousel-item">
-            <img src="/images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-            
-          </div>
-          <div class="carousel-item">
-            <img src="/images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-           
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
   </header>
   <main>
@@ -96,7 +98,7 @@
 
     <section>
         <div class="text-center p-5">
-            <h2 >Discover Our Popular Courses</h2>
+            <h1 >Discover Our Popular <br> Courses</h2>
                 <p class="text-muted">
                     It is a long established fact that a reader will be distracted by the readable  content of a page when looking at its layout.
                 </p>
@@ -214,7 +216,7 @@
             <img src="./images/working.png"  class="img-fluid rounded-4">
           </div>
           <div class="col-md-8 p-4">
-            <h1>Explore The e-learning Institute </h1>
+            <h1>Explore The e-learning <br> Institute </h1>
             <p class="text-muted">
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
               <br>
@@ -250,14 +252,37 @@
     <!-- Register -->
 
     <section class="container my-4">
-      <div class="bg-primary   rounded-4 p-5  d-md-flex text-sm-center  text-md-start  justify-content-between align-items-center" >
+      <div class="bg-primary   rounded-4 p-5  d-lg-flex text-sm-center  text-lg-start  justify-content-between align-items-center" >
         <div class="text-white" >
           <h1>Ready to Join</h1>
           <p>It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout.</p>
         </div>
         <div>
-          <button class=" btn bg-light text-primary p-3 rounded-4"> Register Now</button>
+          <!-- <button type="button" class=" btn bg-light text-primary p-3 rounded-4">Register Now</button> -->
+          <!-- Button trigger modal -->
+            <button type="button" class=" btn bg-light text-primary p-3 rounded-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Coming Soon</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                   
+                    <button type="button" class="btn btn-primary">Later</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -267,7 +292,7 @@
     
     <section class= " container my-4 ">
       <div  class="my-4 p-3">
-       <h1>Meet Our SuccessFull Students </h1>
+       <h1>Meet Our Successfull <br> Students </h1>
        <br>
        <p class="text-muted">It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout.</p>
@@ -392,6 +417,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     
   </body>
+
+<!-- Footer -->
 
   <footer class=" bg-dark text-light text-center  p-5">
     <div class="p-4">
